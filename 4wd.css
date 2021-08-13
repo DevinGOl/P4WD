@@ -17,7 +17,13 @@ h2{
 	text-shadow: 2px 2px black;
     color: rgb(144,100,13);
 
+      }
+#WasE2 {
+    text-shadow: 2px 2px brown;
+    color: black;
+
 }
+
 
 #main {
 	font-size: 25px;
@@ -58,8 +64,7 @@ h2{
 
 
 
-footer {
-}
+
 
 .tooltip-inner {
     background-color: #00cc00;
