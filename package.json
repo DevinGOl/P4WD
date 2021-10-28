@@ -16,7 +16,6 @@
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
-
   "author": "Devin Olenick",
   "license": "ISC",
   "devDependencies": {
@@ -27,16 +26,16 @@
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
-    "usemin-cli": "^0.6.0"  },
-
-    "dependencies": {
-      "bootstrap": "^4.5.2",
-      "bootstrap-social": "^5.1.1",
-      "font-awesome": "^4.7.0",
-      "jquery": "^3.5.1",
-      "popper.js": "^1.16.1"
-    },
-    "repository": {
-      "type": "git"
-    }
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "repository": {
+    "type": "git"
+  }
 }
