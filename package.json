@@ -10,11 +10,8 @@
     "imagemin": "imagemin img/* -o dist/img",
     "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin location.html -d dist --htmlmin -o dist/location.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devin Olenick",
   "license": "ISC",
